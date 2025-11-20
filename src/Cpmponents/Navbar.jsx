@@ -22,6 +22,11 @@ export const Navbar = () =>
 
 
         <div className='flex items-center gap-4'>
+          <div className=' flex items-center gap-3 pl-8 cursor-pointer'>
+                <img className='w-6' src={assets.search_icon} alt="" />
+                <p className='font-bold'>Search</p>
+
+            </div>
             <p className='bg-white text-black texy-[15px] px-4 py-1 rounded-2xl hidden md:block cursor-pointer'>Explore Premium</p>
              <p className='bg-black py-1 px-3 rounded-2xl text-[15px]'>Install App</p>
              <p className='bg-purple-500 text-black w-7 h-7 rounded-full flex items-center justify-center' >S</p>
