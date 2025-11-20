@@ -22,9 +22,9 @@ export const Navbar = () =>
 
 
         <div className='flex items-center gap-4'>
-          <div className=' flex items-center gap-3 pl-8 cursor-pointer'>
-                <img className='w-6' src={assets.search_icon} alt="" />
-                <p className='font-bold'>Search</p>
+          <div className=' flex items-center gap-3 pl-8 cursor-pointer  '>
+                <img className='w-6 hidden md:block' src={assets.search_icon} alt="" />
+                <p className='font-bold hidden md:block'>Search</p>
 
             </div>
             <p className='bg-white text-black texy-[15px] px-4 py-1 rounded-2xl hidden md:block cursor-pointer'>Explore Premium</p>
